@@ -1,1 +1,9 @@
-// 16:06 https://www.youtube.com/watch?v=ngc9gnGgUdA&t=147s
+import express from 'express';
+
+const router = express.Router();
+
+router.get('/', (req, res) => {
+    res.send('THIS WORKS')
+});
+
+export default router;
